@@ -751,7 +751,7 @@ img {
 }
 
 /*==================== PORTFOLIO ====================*/
-.portfolio__container {
+/* .portfolio__container {
   overflow: initial;
 }
 
@@ -808,7 +808,7 @@ img {
 .swiper-button-next,
 .swiper-pagination-bullet {
   outline: none;
-}
+} */
 /*==================== PROJECT IN MIND ====================*/
 .project {
   text-align: center;
@@ -839,7 +839,7 @@ img {
 }
 
 /*==================== TESTIMONIAL ====================*/
-.testimonial__data,
+/* .testimonial__data,
 .testimonial__header {
   display: flex;
 }
@@ -876,7 +876,7 @@ img {
 
 .swiper-container .swiper-pagination-testimonial {
   bottom: 0;
-}
+} */
 
 /*==================== CONTACT ME ====================*/
 .contact__container {
@@ -1281,7 +1281,7 @@ img {
 }
 
 /* For large devices */
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   body {
     margin: 0;
   }
@@ -1327,4 +1327,4 @@ img {
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
   }
-}
+} */
