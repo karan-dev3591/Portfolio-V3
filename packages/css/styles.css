@@ -1212,7 +1212,7 @@ img {
       justify-content: space-between;
     }
     .about__buttons {
-      justify-content: initial;
+      justify-content: center;
     }
     .qualification__tabs {
       justify-content: center;
