@@ -92,45 +92,45 @@ modalCloses.forEach((modalClose) => {
 });
 
 /*==================== PORTFOLIO SWIPER  ====================*/
-let swiperPortfolio = new Swiper(".portfolio__container", {
-  cssMode: true,
-  loop: true,
+// let swiperPortfolio = new Swiper(".portfolio__container", {
+//   cssMode: true,
+//   loop: true,
 
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
 
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
 
-  /* mousewheel: true,
-  keyboard: true, */
-});
+//   mousewheel: true,
+//   keyboard: true,
+// });
 
 /*==================== TESTIMONIAL ====================*/
-let swiperTestimonial = new Swiper(".testimonial__container", {
-  loop: true,
-  grabCursor: true,
-  spaceBetween: 48,
+// let swiperTestimonial = new Swiper(".testimonial__container", {
+//   loop: true,
+//   grabCursor: true,
+//   spaceBetween: 48,
 
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    dynamicBullets: true,
-  },
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//     dynamicBullets: true,
+//   },
 
-  breakpoints: {
-    568: {
-      slidesPerView: 2,
-    },
-  },
+//   breakpoints: {
+//     568: {
+//       slidesPerView: 2,
+//     },
+//   },
 
-  /* mousewheel: true,
-  keyboard: true, */
-});
+//    mousewheel: true,
+//   keyboard: true,
+// });
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll("section[id]");
